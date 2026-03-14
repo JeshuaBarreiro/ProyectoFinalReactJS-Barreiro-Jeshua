@@ -6,14 +6,19 @@ Se trata de una Single Page Application (SPA) de e-commerce desarrollada con **R
 
 ---
 
-## Tecnologías utilizadas
+### Tecnologías utilizadas
 
-- React
-- React Router DOM
-- Context API
-- Firebase / Firestore
-- Bootstrap
-- Vite
+- [React](https://react.dev/): biblioteca utilizada para construir la interfaz de usuario.
+
+- [React Router DOM](https://reactrouter.com/): utilizada para implementar la navegación entre las distintas secciones de la aplicación.
+
+- [Context API](https://react.dev/reference/react/useContext): utilizada para la gestión del estado global del carrito de compras.
+
+- [Bootstrap](https://getbootstrap.com/): utilizada para el diseño y estilos de la interfaz.
+
+- [Firebase](https://firebase.google.com/): utilizada como base de datos para almacenar los productos y registrar las órdenes de compra.
+
+- [Vite](https://vitejs.dev/): herramienta utilizada para crear y compilar el proyecto.
 
 ---
 
@@ -36,6 +41,8 @@ Se trata de una Single Page Application (SPA) de e-commerce desarrollada con **R
 1. Clonar el repositorio
 
 https://github.com/JeshuaBarreiro/ProyectoFinalReactJS-Barreiro-Jeshua
+
+2. Muevase a la carpeta creada con el comando 'cd ReactJS-CODERHOUSE'
 
 2. Instalar dependencias
 
