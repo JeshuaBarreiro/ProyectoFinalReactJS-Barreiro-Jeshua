@@ -59,5 +59,5 @@ Se utiliza **Firebase Firestore** para:
 
 ## Autor
 
-Proyecto desarrollado por **Jeshu** para el curso **React JS - Coderhouse**.
+Proyecto desarrollado por **Jeshua Panuel Barreiro** para el curso **React JS - Coderhouse**.
 # ProyectoFinalReactJS-Barreiro-Jeshua
