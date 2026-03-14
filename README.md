@@ -35,7 +35,7 @@ Se trata de una Single Page Application (SPA) de e-commerce desarrollada con **R
 
 1. Clonar el repositorio
 
-
+https://github.com/JeshuaBarreiro/ProyectoFinalReactJS-Barreiro-Jeshua
 
 2. Instalar dependencias
 
