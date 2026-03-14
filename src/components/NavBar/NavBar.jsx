@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import CartWidget from "./CartWidget"
 
 function NavBar() {
@@ -40,39 +40,69 @@ Componentes
 <ul className="dropdown-menu">
 
 <li>
-<Link className="dropdown-item" to="/category/cpu">
+<NavLink
+to="/category/cpu"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 CPU
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/gpu">
+<NavLink
+to="/category/gpu"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 GPU
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/ram">
+<NavLink
+to="/category/ram"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 RAM
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/storage">
+<NavLink
+to="/category/storage"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 Storage
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/motherboard">
+<NavLink
+to="/category/motherboard"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 Motherboards
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/psu">
+<NavLink
+to="/category/psu"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 Fuentes
-</Link>
+</NavLink>
 </li>
 
 </ul>
@@ -93,21 +123,36 @@ Periféricos
 <ul className="dropdown-menu">
 
 <li>
-<Link className="dropdown-item" to="/category/mouse">
+<NavLink
+to="/category/mouse"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 Mouse
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/keyboard">
+<NavLink
+to="/category/keyboard"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 Teclados
-</Link>
+</NavLink>
 </li>
 
 <li>
-<Link className="dropdown-item" to="/category/monitor">
+<NavLink
+to="/category/monitor"
+className={({ isActive }) =>
+"dropdown-item " + (isActive ? "active" : "")
+}
+>
 Monitores
-</Link>
+</NavLink>
 </li>
 
 </ul>
@@ -116,9 +161,14 @@ Monitores
 
 <li className="nav-item">
 
-<Link className="nav-link text-warning fw-bold" to="/category/ofertas">
+<NavLink
+to="/category/ofertas"
+className={({ isActive }) =>
+"nav-link text-warning fw-bold " + (isActive ? "active" : "")
+}
+>
 Ofertas
-</Link>
+</NavLink>
 
 </li>
 
